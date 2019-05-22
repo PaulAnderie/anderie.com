@@ -7,14 +7,14 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <SEO title="Paul Anderie (GitHub)" />
+    <h1>Hi 👋, ich bin Paul Anderie (GitHub)</h1>
+    <p>Ich bin der Gründer von <a href="https://prandible.com?utm_source=paul">prandible</a>, Hersteller von Software und Digital-Produkten und Technologie-Enthusiast.</p>
+    <p> Meine Texte und Ideen konzentrieren sich auf die konträre Sichtweise, dass Geschäftswachstum nicht immer gut ist und nicht immer erforderlich ist.</p>
+    <div style={{ maxWidth: `450px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/page-2/">Projekte</Link>
   </Layout>
 )
 
