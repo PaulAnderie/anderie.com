@@ -15,7 +15,7 @@ const IndexPage = () => (
     </div>
     <h2>Wer bin ich?</h2>
     <p>Viele nennen mich das "Digitale Schweizer Taschenmesser" oder Paul "The Toolbox" Anderie und tatsächlich interessiere ich mich für viele Dinge. In einem bin ich aber besonders gut...</p>
-    <blockquote>Menschen beim Wandeln und Handeln unterstützen.</blockquote>
+    <blockquote>Menschen beim Wandel(n) und Handeln unterstützen.</blockquote>
     <div>
 
     </div>
