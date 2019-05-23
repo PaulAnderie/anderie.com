@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Paul Anderie (GitHub)" />
+    <SEO title="Paul Anderie LIVE" />
     <h1>Hi 👋, ich bin Paul Anderie (GitHub)</h1>
     <p>Ich bin der Gründer von <a href="https://prandible.com?utm_source=paul">prandible</a>, Hersteller von Software und Digital-Produkten und Technologie-Enthusiast.</p>
     <p> Meine Texte und Ideen konzentrieren sich auf die konträre Sichtweise, dass Geschäftswachstum nicht immer gut ist und nicht immer erforderlich ist.</p>
