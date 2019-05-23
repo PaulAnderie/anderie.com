@@ -15,13 +15,10 @@ const IndexPage = () => (
     </div>
     <h2>Wer bin ich?</h2>
     <p>Viele nennen mich das "Digitale Schweizer Taschenmesser" oder Paul "The Toolbox" Anderie und tatsächlich interessiere ich mich für viele Dinge. In einem bin ich aber besonders gut...</p>
-    <p>Menschen beim Wandeln und Handeln zu helfen</p>
+    <blockquote>Menschen beim Wandeln und Handeln unterstützen.</blockquote>
     <div>
 
     </div>
-    <Link to="/projekte/">Projekte | </Link>
-    <Link to="/portfolio/">Portfolio | </Link>
-    <Link to="/bildung/">Bildung</Link>
   </Layout>
 )
 

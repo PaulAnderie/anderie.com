@@ -36,9 +36,17 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, Built by
-            {` `}
-            <a href="https://prandible.com">prandible</a>
+          <div><a href="/projekte/">Projekte | </a>
+          <a href="/portfolio/">Portfolio | </a>
+          <a href="/bildung/">Bildung</a>
+          {` `}
+
+          oder sag Hi auf <a href="https://www.instagram.com/paulanderie/">Instagram</a> {` `}| <a href="https://www.facebook.com/paul.anderie">Facebook</a> {` `}| <a href="https://www.linkedin.com/in/paulanderie/">LinkedIn</a> {` `}
+          {` `}
+          {` `}
+          {` `}
+          {` `}
+          und hier das {` `}<a href="https://prandible.com/impressum">Impressum</a></div>
           </footer>
         </div>
       </>

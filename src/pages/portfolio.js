@@ -57,10 +57,6 @@ const SecondPage = () => (
         </ul>
     <p><em>Ergebnis: Aufbau Shopsystem mit PIM Anbindung</em></p>
     </ol>
-    <Link to="/">Zurück zur Startseite |</Link>
-    <Link to="/projekte/">Projekte | </Link>
-    <Link to="/portfolio/">Portfolio | </Link>
-    <Link to="/bildung/">Bildung</Link>
   </Layout>
 )
 

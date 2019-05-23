@@ -30,10 +30,6 @@ const SecondPage = () => (
         <li><strong><a href="https://www.handwerk-direkt.de/">Kreishandwerkschaft Bergisches Land</a></strong> - Entwicklung und Durchführung zum Seminar "Facebook für Fortgeschrittene"
         </li>
     </ul>
-    <Link to="/">Zurück zur Startseite |</Link>
-    <Link to="/projekte/">Projekte | </Link>
-    <Link to="/portfolio/">Portfolio | </Link>
-    <Link to="/bildung/">Bildung</Link>
   </Layout>
 )
 
