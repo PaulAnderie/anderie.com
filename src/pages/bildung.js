@@ -8,7 +8,7 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Bildung " />
     <h1>Pauls Bildungsprojekte</h1>
-    <p>Willkommen zu meinen Bildungsprojekte.</p>
+    <p>Willkommen zu meinen Projekten im Bereich Bildung</p>
     <h2>E-Learning und Bildung</h2>
     <ul>
         <li><strong><a href="https://jaeger.health/">Jäger Health Group</a></strong> - Entwicklung von 3 Videomodulen und Schulungsmaterial für die Themen:
