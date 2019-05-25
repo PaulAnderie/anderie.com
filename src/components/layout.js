@@ -55,7 +55,9 @@ export default ({ children }) => (
        <ListLink to="/bildung/">Bildung</ListLink>
      </ul>
    </header>
+
     {children}
+
     <footer>
     <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
       <h3 style={{ display: `inline` }}>Home</h3>
