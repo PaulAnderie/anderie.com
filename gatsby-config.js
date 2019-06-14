@@ -15,14 +15,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
-
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -60,8 +52,6 @@ module.exports = {
         includeInDevelopment: false,
       },
     },
-
-
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
