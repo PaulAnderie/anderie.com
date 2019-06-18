@@ -7,7 +7,7 @@ import headerStyles from "./header.module.scss"
 const Header = () => {
     return (
         <header className={headerStyles.header}>
-            <h1><Link to="/">Online-Marketing Berater</Link></h1>
+            <h1><Link to="/">Digitaler Trainer</Link></h1>
             <nav>
                 <ul className={headerStyles.navList}>
                     <li>

@@ -8,9 +8,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Paul Anderie - Online-Marekting Berater" />
-    <h1>Hi 👋, ich bin Paul Anderie</h1>
+    <h1>Hi <span>👋</span>, ich bin Paul Anderie</h1>
         <p>Ich bin der Gründer von <a href="https://prandible.com?utm_source=anderie.com">prandible</a>, Hersteller von
-        Software und Digital-Produkten und Technologie-Enthusiast.</p>
+        Software- und Digital-Produkten und Technologie-Enthusiast.</p>
         <p>Im nächsten Schritt kannst du erstmal erfahren, <Link to="/ueber">wer Paul eigentlich ist?</Link></p>
         <div style={{ maxWidth: `450px`, marginBottom: `1.45rem` }}>
           <Image />

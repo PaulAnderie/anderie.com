@@ -13,6 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.0.37",
+    "gatsby-remark-embed-video": "^1.7.1",
     "gatsby-source-filesystem": "^2.0.37",
     "gatsby-source-google-docs": "^1.8.0",
     "gatsby-transformer-remark": "^2.3.12",

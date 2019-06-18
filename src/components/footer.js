@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 const Footer = () => {
     return (
         <footer>
+            Hier findest du {` `}
+
             <Link to="/projekte/">Projekte | </Link>
             <Link to="/portfolio/">Portfolio | </Link>
             <Link to="/bildung/">Bildung</Link>
