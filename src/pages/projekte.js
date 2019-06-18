@@ -1,10 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const Projekte = () => (
   <Layout>
     <SEO title="Projekte " />
     <h1>Pauls Projekte</h1>
@@ -18,8 +17,8 @@ const SecondPage = () => (
         <li><strong><a href="https://pinbuttler.com">PinButler</a></strong> - Pinterest Marketing Automatisierung | MRR - € 20,-
         </li>
     </ul>
-    
+
   </Layout>
 )
 
-export default SecondPage
+export default Projekte

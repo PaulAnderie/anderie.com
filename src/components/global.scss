@@ -1,8 +1,9 @@
+/* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: lavenderbush;
 }
 body {
   margin: 0;
@@ -201,7 +202,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -438,27 +439,11 @@ blockquote {
   margin-left: 1.45rem;
   margin-right: 1.45rem;
   margin-top: 0;
-  padding-bottom: 5px;
+  padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 5px;
+  padding-top: 0;
   margin-bottom: 1.45rem;
-  text-decoration-style: dashed;
-  font-style: italic;
-  font-size: 1.45rem;
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-}
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-blockquote p {
-  display: inline;
 }
 form {
   margin-left: 0;

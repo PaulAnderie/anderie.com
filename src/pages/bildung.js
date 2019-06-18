@@ -1,10 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const Bildung = () => (
   <Layout>
     <SEO title="Bildung " />
     <h1>Pauls Bildungsprojekte</h1>
@@ -33,4 +32,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default Bildung

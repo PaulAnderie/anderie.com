@@ -1,10 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `Paul Anderie - Online-Marketing Berater`,
-    description: `Hello, nice to see you here. Check out the fastes site, you have seen.`,
+    description: `Willkommen auf Paul's Seite. Klicke auf die schnellste Seite, die du bisher gesehen hast.`,
     author: `@paulanderie`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
+
+
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -26,20 +29,6 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/PA.png`, // This path is relative to the root of the site.
       },
-    },
-
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      // CommonMark mode (default: true)
-      commonmark: true,
-      // Footnotes mode (default: true)
-      footnotes: true,
-      // Pedantic mode (default: true)
-      pedantic: true,
-      // GitHub Flavored Markdown mode (default: true)
-      gfm: true,
-      // Plugins configs
-      plugins: [],
     },
 
     {
